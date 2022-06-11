@@ -1,7 +1,13 @@
 <template>
-  <v-card flat class="d-flex flex-column layout">
+  <v-card flat class="d-flex flex-column mx-10 mt-5">
     <v-card class="ma-5 pa-0" color="transparent" flat width="100%">
-      <v-card-title class="font-weight-bold text-h3">Works</v-card-title>
+      <v-card-title class="font-weight-bold text-h3">
+        Works
+        <v-spacer></v-spacer>
+        <v-btn icon to="/" height="40" width="40" depressed>
+          <v-icon size="28">mdi-arrow-left</v-icon>
+        </v-btn>
+      </v-card-title>
     </v-card>
     <v-row class="mx-9 pa-0">
       <v-card
